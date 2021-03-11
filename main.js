@@ -3,7 +3,7 @@ var getFirstName = (obj) => obj.firstName;
 
 var getLastName = (obj) => obj.lastName;
 
-var getFullName = (obj) => obj.firstName + " " + obj.lastName;
+var getFullName = (obj) => `${obj.firstName}  ${obj.lastName}`;
 
 var setFirstName = (obj, str) => obj.firstName = str;
 
